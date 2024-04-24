@@ -1,0 +1,16 @@
+server:
+  port: 8762
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name: my-eureka-client-gateway
+  cloud:
+    gateway:
+      routes: #配置路由路径
+        - id: my-eureka-client
+          uri: lb://my-eureka-client
+          predicates:
+            - Path=/springCloud/**

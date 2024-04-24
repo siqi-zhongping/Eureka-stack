@@ -1,0 +1,12 @@
+2024-04-13 00:07:22,771 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 4 to 4, cost 1 ms.
+
+2024-04-13 00:10:37,906 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 4 to 4, cost 0 ms.
+
+2024-04-13 00:16:44,228 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 4 to 4, cost 0 ms.
+
+2024-04-13 00:37:22,784 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 4 to 4, cost 1 ms.
+
+2024-04-13 00:40:37,916 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 4 to 4, cost 0 ms.
+
+2024-04-13 00:46:44,240 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 4 to 4, cost 0 ms.
+

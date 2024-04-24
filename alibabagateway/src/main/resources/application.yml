@@ -1,0 +1,18 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: service-gateway
+  cloud:
+    gateway:
+      routes: #配置路由路径
+        - id: service-provider
+          uri: lb://service-provider
+          predicates:
+            - Path=/springCloud/**
+    nacos:
+      discovery:
+        server-addr: http://127.0.0.1:8848/
+            
+            
+  

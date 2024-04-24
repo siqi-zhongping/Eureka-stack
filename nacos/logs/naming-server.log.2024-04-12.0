@@ -1,0 +1,64 @@
+2024-04-12 10:47:42,273 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.CmdbSelectorContextBuilder) contextType(CMDB) successfully.
+
+2024-04-12 10:47:42,273 INFO [SelectorManager] Load SelectorContextBuilder(class com.alibaba.nacos.naming.selector.context.NoneSelectorContextBuilder) contextType(NONE) successfully.
+
+2024-04-12 10:47:42,273 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.LabelSelector) type(label) contextType(CMDB) successfully.
+
+2024-04-12 10:47:42,273 INFO [SelectorManager] Load Selector(class com.alibaba.nacos.naming.selector.NoneSelector) type(none) contextType(NONE) successfully.
+
+2024-04-12 10:47:43,202 INFO Load instance extension handler []
+
+2024-04-12 10:50:45,043 INFO Client connection 1712890244840_127.0.0.1_7681 connect
+
+2024-04-12 10:50:45,238 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='service-provider', ephemeral=true, revision=0}, 1712890244840_127.0.0.1_7681
+
+2024-04-12 10:51:09,543 INFO Client connection 1712890269427_127.0.0.1_7708 connect
+
+2024-04-12 10:51:09,685 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='service-gateway', ephemeral=true, revision=0}, 1712890269427_127.0.0.1_7708
+
+2024-04-12 11:06:35,193 INFO Client connection 1712890269427_127.0.0.1_7708 disconnect, remove instances and subscribers
+
+2024-04-12 11:06:35,376 INFO Client connection 1712890244840_127.0.0.1_7681 disconnect, remove instances and subscribers
+
+2024-04-12 11:06:51,553 INFO Client connection 1712891211503_127.0.0.1_9251 connect
+
+2024-04-12 11:06:51,696 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='service-gateway', ephemeral=true, revision=2}, 1712891211503_127.0.0.1_9251
+
+2024-04-12 11:07:09,552 INFO Client connection 1712891229494_127.0.0.1_9293 connect
+
+2024-04-12 11:07:09,683 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='service-provider', ephemeral=true, revision=2}, 1712891229494_127.0.0.1_9293
+
+2024-04-12 11:15:04,588 INFO Client connection 1712891229494_127.0.0.1_9293 disconnect, remove instances and subscribers
+
+2024-04-12 11:15:04,794 INFO Client connection 1712891211503_127.0.0.1_9251 disconnect, remove instances and subscribers
+
+2024-04-12 11:15:20,463 INFO Client connection 1712891720316_127.0.0.1_10046 connect
+
+2024-04-12 11:15:20,605 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='service-provider', ephemeral=true, revision=4}, 1712891720316_127.0.0.1_10046
+
+2024-04-12 11:16:13,065 WARN namespace : public, [DEFAULT_GROUP@@service-gateway] services are automatically cleaned
+
+2024-04-12 11:21:22,163 INFO Client connection 1712891720316_127.0.0.1_10046 disconnect, remove instances and subscribers
+
+2024-04-12 11:22:47,942 INFO Client connection 1712892167879_127.0.0.1_10865 connect
+
+2024-04-12 11:22:48,100 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='service-provider', ephemeral=true, revision=6}, 1712892167879_127.0.0.1_10865
+
+2024-04-12 11:55:09,305 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='service-provider', ephemeral=true, revision=7}, 1712892167879_127.0.0.1_10865
+
+2024-04-12 11:55:09,352 INFO Client connection 1712892167879_127.0.0.1_10865 disconnect, remove instances and subscribers
+
+2024-04-12 11:55:39,507 INFO Client connection 1712894139446_127.0.0.1_14491 connect
+
+2024-04-12 11:55:39,666 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='service-provider', ephemeral=true, revision=8}, 1712894139446_127.0.0.1_14491
+
+2024-04-12 11:57:21,665 INFO Client connection 1712894241610_127.0.0.1_14645 connect
+
+2024-04-12 11:57:21,786 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='service-gateway', ephemeral=true, revision=0}, 1712894241610_127.0.0.1_14645
+
+2024-04-12 11:58:03,377 INFO Client connection 1712894283315_127.0.0.1_14730 connect
+
+2024-04-12 11:58:03,509 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='service-provider', ephemeral=true, revision=9}, 1712894283315_127.0.0.1_14730
+
+2024-04-12 11:58:56,004 INFO Client connection 1712894283315_127.0.0.1_14730 disconnect, remove instances and subscribers
+

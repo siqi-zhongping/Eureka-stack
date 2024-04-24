@@ -1,0 +1,10 @@
+server:
+  port: 8761
+spring:
+  profiles: 
+   active: peer1
+  application:
+    name: my-eureka-server
+logging:
+  level:
+    com.netflix.eureka: DEBUG

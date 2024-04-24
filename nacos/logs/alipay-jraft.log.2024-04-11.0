@@ -1,0 +1,332 @@
+2024-04-11 15:31:09,278 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2024-04-11 15:31:09,337 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2024-04-11 15:31:09,438 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2024-04-11 15:31:09,440 INFO The number of active nodes increment to 1.
+
+2024-04-11 15:31:09,615 INFO Starts FSMCaller successfully.
+
+2024-04-11 15:31:09,621 WARN No data for snapshot reader D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot.
+
+2024-04-11 15:31:09,626 INFO Node <naming_persistent_service_v2/192.168.88.105:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 15:31:09,627 INFO Node <naming_persistent_service_v2/192.168.88.105:7848> start vote and grant vote self, term=0.
+
+2024-04-11 15:31:09,641 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2024-04-11 15:31:09,645 INFO Save raft meta, path=D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=1, votedFor=192.168.88.105:7848, cost time=14 ms
+
+2024-04-11 15:31:09,646 INFO Node <naming_persistent_service_v2/192.168.88.105:7848> become leader of group, term=1, conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 15:31:09,647 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2024-04-11 15:31:09,649 WARN RPC server is not started in RaftGroupService.
+
+2024-04-11 15:31:09,649 INFO Start the RaftGroupService successfully.
+
+2024-04-11 15:31:09,662 INFO The number of active nodes increment to 2.
+
+2024-04-11 15:31:09,666 INFO onLeaderStart: term=1.
+
+2024-04-11 15:31:09,715 INFO Creating new channel to: 192.168.88.105:7848.
+
+2024-04-11 15:31:09,730 INFO Starts FSMCaller successfully.
+
+2024-04-11 15:31:09,730 WARN No data for snapshot reader D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot.
+
+2024-04-11 15:31:09,730 INFO Node <naming_instance_metadata/192.168.88.105:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 15:31:09,731 INFO Node <naming_instance_metadata/192.168.88.105:7848> start vote and grant vote self, term=0.
+
+2024-04-11 15:31:09,735 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2024-04-11 15:31:09,735 INFO Save raft meta, path=D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=1, votedFor=192.168.88.105:7848, cost time=4 ms
+
+2024-04-11 15:31:09,735 INFO Node <naming_instance_metadata/192.168.88.105:7848> become leader of group, term=1, conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 15:31:09,735 WARN RPC server is not started in RaftGroupService.
+
+2024-04-11 15:31:09,735 INFO Start the RaftGroupService successfully.
+
+2024-04-11 15:31:09,738 INFO onLeaderStart: term=1.
+
+2024-04-11 15:31:09,740 INFO The number of active nodes increment to 3.
+
+2024-04-11 15:31:09,749 INFO The channel 192.168.88.105:7848 is in state: CONNECTING.
+
+2024-04-11 15:31:09,784 INFO Starts FSMCaller successfully.
+
+2024-04-11 15:31:09,784 WARN No data for snapshot reader D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot.
+
+2024-04-11 15:31:09,784 INFO Node <naming_service_metadata/192.168.88.105:7848> init, term=0, lastLogId=LogId [index=0, term=0], conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 15:31:09,784 INFO Node <naming_service_metadata/192.168.88.105:7848> start vote and grant vote self, term=0.
+
+2024-04-11 15:31:09,788 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2024-04-11 15:31:09,788 INFO Save raft meta, path=D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=1, votedFor=192.168.88.105:7848, cost time=4 ms
+
+2024-04-11 15:31:09,788 INFO Node <naming_service_metadata/192.168.88.105:7848> become leader of group, term=1, conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 15:31:09,789 WARN RPC server is not started in RaftGroupService.
+
+2024-04-11 15:31:09,789 INFO Start the RaftGroupService successfully.
+
+2024-04-11 15:31:09,798 INFO onLeaderStart: term=1.
+
+2024-04-11 15:31:09,895 INFO The channel 192.168.88.105:7848 is in state: READY.
+
+2024-04-11 15:31:09,895 INFO The channel 192.168.88.105:7848 has successfully established.
+
+2024-04-11 15:47:59,364 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2024-04-11 15:47:59,364 INFO Deleting snapshot D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
+
+2024-04-11 15:47:59,364 INFO Renaming D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
+
+2024-04-11 15:47:59,367 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot on windows.
+
+2024-04-11 15:49:57,851 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2024-04-11 15:49:57,852 INFO Deleting snapshot D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
+
+2024-04-11 15:49:57,852 INFO Renaming D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
+
+2024-04-11 15:49:57,852 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot on windows.
+
+2024-04-11 15:54:26,084 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2024-04-11 15:54:26,085 INFO Deleting snapshot D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_1.
+
+2024-04-11 15:54:26,085 INFO Renaming D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_1.
+
+2024-04-11 15:54:26,088 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot on windows.
+
+2024-04-11 16:45:46,179 INFO SPI service [com.alipay.sofa.jraft.JRaftServiceFactory - com.alipay.sofa.jraft.core.DefaultJRaftServiceFactory] loading.
+
+2024-04-11 16:45:46,232 INFO SPI service [com.alipay.sofa.jraft.rpc.RaftRpcFactory - com.alipay.sofa.jraft.rpc.impl.GrpcRaftRpcFactory] loading.
+
+2024-04-11 16:45:46,328 INFO SPI service [com.alipay.sofa.jraft.util.timer.RaftTimerFactory - com.alipay.sofa.jraft.util.timer.DefaultRaftTimerFactory] loading.
+
+2024-04-11 16:45:46,331 INFO The number of active nodes increment to 1.
+
+2024-04-11 16:45:46,536 INFO Starts FSMCaller successfully.
+
+2024-04-11 16:45:46,546 INFO Loading snapshot, meta=last_included_index: 1
+last_included_term: 1
+peers: "192.168.88.105:7848"
+.
+
+2024-04-11 16:45:46,595 INFO Node <naming_persistent_service_v2/192.168.88.105:7848> onSnapshotLoadDone, last_included_index: 1
+last_included_term: 1
+peers: "192.168.88.105:7848"
+
+
+2024-04-11 16:45:46,596 INFO Node <naming_persistent_service_v2/192.168.88.105:7848> target priority value has changed from: 0, to: -1.
+
+2024-04-11 16:45:46,601 INFO Node <naming_persistent_service_v2/192.168.88.105:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 16:45:46,602 INFO Node <naming_persistent_service_v2/192.168.88.105:7848> start vote and grant vote self, term=1.
+
+2024-04-11 16:45:46,613 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data on windows.
+
+2024-04-11 16:45:46,613 INFO Save raft meta, path=D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\meta-data, term=2, votedFor=192.168.88.105:7848, cost time=10 ms
+
+2024-04-11 16:45:46,613 INFO Node <naming_persistent_service_v2/192.168.88.105:7848> become leader of group, term=2, conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 16:45:46,614 INFO -Djraft.recyclers.maxCapacityPerThread: 4096.
+
+2024-04-11 16:45:46,616 WARN RPC server is not started in RaftGroupService.
+
+2024-04-11 16:45:46,616 INFO Start the RaftGroupService successfully.
+
+2024-04-11 16:45:46,624 INFO onLeaderStart: term=2.
+
+2024-04-11 16:45:46,624 INFO The number of active nodes increment to 2.
+
+2024-04-11 16:45:46,677 INFO Creating new channel to: 192.168.88.105:7848.
+
+2024-04-11 16:45:46,691 INFO Starts FSMCaller successfully.
+
+2024-04-11 16:45:46,695 INFO Loading snapshot, meta=last_included_index: 1
+last_included_term: 1
+peers: "192.168.88.105:7848"
+.
+
+2024-04-11 16:45:46,702 INFO Node <naming_instance_metadata/192.168.88.105:7848> onSnapshotLoadDone, last_included_index: 1
+last_included_term: 1
+peers: "192.168.88.105:7848"
+
+
+2024-04-11 16:45:46,702 INFO Node <naming_instance_metadata/192.168.88.105:7848> target priority value has changed from: 0, to: -1.
+
+2024-04-11 16:45:46,703 INFO Node <naming_instance_metadata/192.168.88.105:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 16:45:46,703 INFO Node <naming_instance_metadata/192.168.88.105:7848> start vote and grant vote self, term=1.
+
+2024-04-11 16:45:46,708 INFO The channel 192.168.88.105:7848 is in state: CONNECTING.
+
+2024-04-11 16:45:46,708 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\meta-data on windows.
+
+2024-04-11 16:45:46,708 INFO Save raft meta, path=D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\meta-data, term=2, votedFor=192.168.88.105:7848, cost time=4 ms
+
+2024-04-11 16:45:46,708 INFO Node <naming_instance_metadata/192.168.88.105:7848> become leader of group, term=2, conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 16:45:46,709 WARN RPC server is not started in RaftGroupService.
+
+2024-04-11 16:45:46,709 INFO Start the RaftGroupService successfully.
+
+2024-04-11 16:45:46,710 INFO onLeaderStart: term=2.
+
+2024-04-11 16:45:46,711 INFO The number of active nodes increment to 3.
+
+2024-04-11 16:45:46,786 INFO Starts FSMCaller successfully.
+
+2024-04-11 16:45:46,790 INFO Loading snapshot, meta=last_included_index: 1
+last_included_term: 1
+peers: "192.168.88.105:7848"
+.
+
+2024-04-11 16:45:46,797 INFO Node <naming_service_metadata/192.168.88.105:7848> onSnapshotLoadDone, last_included_index: 1
+last_included_term: 1
+peers: "192.168.88.105:7848"
+
+
+2024-04-11 16:45:46,797 INFO Node <naming_service_metadata/192.168.88.105:7848> target priority value has changed from: 0, to: -1.
+
+2024-04-11 16:45:46,798 INFO Node <naming_service_metadata/192.168.88.105:7848> init, term=1, lastLogId=LogId [index=1, term=1], conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 16:45:46,798 INFO Node <naming_service_metadata/192.168.88.105:7848> start vote and grant vote self, term=1.
+
+2024-04-11 16:45:46,803 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\meta-data on windows.
+
+2024-04-11 16:45:46,804 INFO Save raft meta, path=D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\meta-data, term=2, votedFor=192.168.88.105:7848, cost time=5 ms
+
+2024-04-11 16:45:46,804 INFO Node <naming_service_metadata/192.168.88.105:7848> become leader of group, term=2, conf=192.168.88.105:7848, oldConf=.
+
+2024-04-11 16:45:46,804 WARN RPC server is not started in RaftGroupService.
+
+2024-04-11 16:45:46,804 INFO Start the RaftGroupService successfully.
+
+2024-04-11 16:45:46,806 INFO onLeaderStart: term=2.
+
+2024-04-11 16:45:46,843 INFO The channel 192.168.88.105:7848 is in state: READY.
+
+2024-04-11 16:45:46,843 INFO The channel 192.168.88.105:7848 has successfully established.
+
+2024-04-11 17:05:17,453 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp on windows.
+
+2024-04-11 17:05:17,454 INFO Deleting snapshot D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_2.
+
+2024-04-11 17:05:17,454 INFO Renaming D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot\temp to D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_2.
+
+2024-04-11 17:05:17,457 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot on windows.
+
+2024-04-11 17:05:17,458 INFO Deleting snapshot D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\snapshot\snapshot_1.
+
+2024-04-11 17:05:17,530 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 1 to 2, cost 2 ms.
+
+2024-04-11 17:11:06,082 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp on windows.
+
+2024-04-11 17:11:06,083 INFO Deleting snapshot D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_2.
+
+2024-04-11 17:11:06,083 INFO Renaming D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\temp to D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_2.
+
+2024-04-11 17:11:06,088 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot on windows.
+
+2024-04-11 17:11:06,088 INFO Deleting snapshot D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\snapshot\snapshot_1.
+
+2024-04-11 17:11:06,105 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 1 to 2, cost 3 ms.
+
+2024-04-11 17:13:41,811 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp on windows.
+
+2024-04-11 17:13:41,811 INFO Deleting snapshot D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_2.
+
+2024-04-11 17:13:41,811 INFO Renaming D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot\temp to D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_2.
+
+2024-04-11 17:13:41,815 WARN Unable to fsync directory D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot on windows.
+
+2024-04-11 17:13:41,815 INFO Deleting snapshot D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\snapshot\snapshot_1.
+
+2024-04-11 17:13:41,826 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 1 to 2, cost 1 ms.
+
+2024-04-11 17:35:17,294 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 2 to 3, cost 1 ms.
+
+2024-04-11 17:41:06,065 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 2 to 3, cost 0 ms.
+
+2024-04-11 17:43:41,793 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 2 to 3, cost 0 ms.
+
+2024-04-11 18:05:17,314 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 2 ms.
+
+2024-04-11 18:11:06,071 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 18:13:41,794 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 18:35:17,313 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 18:41:06,082 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 18:43:41,797 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 19:05:17,328 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 1 ms.
+
+2024-04-11 19:11:06,096 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 19:13:41,803 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 19:35:17,342 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 1 ms.
+
+2024-04-11 19:41:06,110 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 19:43:41,815 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 20:05:17,342 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 20:11:06,118 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 20:13:41,821 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 20:35:17,362 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 20:41:06,133 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 20:43:41,833 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 21:05:17,368 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 21:11:06,142 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 21:13:41,835 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 21:35:17,372 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 21:41:06,151 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 21:43:41,836 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 22:05:17,386 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 22:11:06,159 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 22:13:41,850 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 1 ms.
+
+2024-04-11 22:35:17,391 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 22:41:06,175 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 1 ms.
+
+2024-04-11 22:43:41,861 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 23:05:17,388 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 23:11:06,183 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 23:13:41,875 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 23:35:17,399 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_instance_metadata\log from log index 3 to 3, cost 1 ms.
+
+2024-04-11 23:41:06,195 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_persistent_service_v2\log from log index 3 to 3, cost 0 ms.
+
+2024-04-11 23:43:41,885 INFO Truncated prefix logs in data path: D:\0\newspecies\nacos\data\protocol\raft\naming_service_metadata\log from log index 3 to 3, cost 0 ms.
+

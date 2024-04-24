@@ -1,0 +1,6 @@
+2024-04-12 11:07:29,620 INFO [PUSH-SUCC] 286ms, all delay time 884ms for subscriber 192.168.88.105, Service{namespace='public', group='DEFAULT_GROUP', name='service-provider', ephemeral=true, revision=3}, originalSize=1, DataSize=1
+
+2024-04-12 11:58:30,041 INFO [PUSH-SUCC] 94ms, all delay time 620ms for subscriber 192.168.88.105, Service{namespace='public', group='DEFAULT_GROUP', name='service-provider', ephemeral=true, revision=10}, originalSize=2, DataSize=2
+
+2024-04-12 11:58:56,633 INFO [PUSH-SUCC] 27ms, all delay time 628ms, SLA 628ms, Service{namespace='public', group='DEFAULT_GROUP', name='service-provider', ephemeral=true, revision=11}, originalSize=1, DataSize=1, target=192.168.88.105
+
